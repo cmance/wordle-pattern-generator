@@ -143,6 +143,7 @@ main("SNAKE", [
 ## Contributing
 
 Feel free to submit issues or pull requests to improve the tool.
+Credit to @dracos for the Wordle word list.
 
 ## License
 
