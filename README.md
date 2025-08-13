@@ -2,7 +2,9 @@
 
 A Python tool that finds valid Wordle words that match specific color patterns when compared to a target word.
 
-![Wordle Example](images/wordle-example.PNG)
+<div align="center">
+  <img src="images/wordle-example.PNG" alt="Wordle Example" />
+</div>
 
 *Ever wondered what words would create this exact pattern? This tool finds them for you!*
 
@@ -82,13 +84,6 @@ Row 5: bidon
 Row 6: crane
 ```
 
-### More Examples
-
-**Progressive discovery pattern:**
-```bash
-python main.py "snake" "0,0,0,0,0" "1,0,0,0,0" "1,1,0,0,0" "2,1,0,0,0" "2,2,1,0,0" "2,2,2,2,2"
-```
-
 ## File Structure
 
 ```
@@ -97,31 +92,6 @@ wordle-pattern-generator/
 ├── valid-wordle-words.txt     # List of valid Wordle words (one per line)
 ├── README.md                  # This file
 └── LICENSE                    # License file
-```
-
-## Customizing Patterns
-
-### Command Line Examples
-
-**Progressive Discovery:**
-```bash
-python main.py "snake" "0,0,0,0,0" "1,0,0,0,0" "1,1,0,0,0" "2,1,0,0,0" "2,2,1,0,0" "2,2,2,2,2"
-```
-
-### Code Examples
-
-If you prefer to edit the code directly, think about what feedback each guess should produce:
-
-### Example 1: Progressive Discovery
-```python
-main("SNAKE", [
-    [0, 0, 0, 0, 0],  # All gray - no letters match
-    [1, 0, 0, 0, 0],  # First letter yellow (S in wrong position)
-    [1, 1, 0, 0, 0],  # Two letters yellow
-    [2, 1, 0, 0, 0],  # First green, second yellow
-    [2, 2, 1, 0, 0],  # More progress
-    [2, 2, 2, 2, 2]   # Perfect match
-])
 ```
 
 ## Requirements
