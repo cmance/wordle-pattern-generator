@@ -2,17 +2,13 @@
 
 A Python tool that finds valid Wordle words that match specific color patterns when compared to a target word.
 
-![Wordle Example](images/wordle-example.png)
+![Wordle Example](images/wordle-example.PNG)
 
 *Ever wondered what words would create this exact pattern? This tool finds them for you!*
 
 ## What it does
 
-This tool helps you find words that would produce specific Wordle color patterns (green, yellow, gray) when guessed against a known target word. This is useful for:
-- Creating custom Wordle puzzles
-- Analyzing Wordle strategies
-- Finding words that produce specific feedback patterns
-
+This tool helps you find words that would produce specific Wordle color patterns (green, yellow, gray) when guessed against a known target word.
 ## How it works
 
 The program takes:
